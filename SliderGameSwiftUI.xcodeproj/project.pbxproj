@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5AE5162A01129F004AE22D /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AE5152A01129F004AE22D /* SliderView.swift */; };
 		4DBCF5952A00C7FA0031B51C /* SliderGameSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCF5942A00C7FA0031B51C /* SliderGameSwiftUIApp.swift */; };
 		4DBCF5972A00C7FA0031B51C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCF5962A00C7FA0031B51C /* ContentView.swift */; };
 		4DBCF5992A00C7FB0031B51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBCF5982A00C7FB0031B51C /* Assets.xcassets */; };
 		4DBCF59C2A00C7FB0031B51C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBCF59B2A00C7FB0031B51C /* Preview Assets.xcassets */; };
+		4DBCF5A32A00CA880031B51C /* UISliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCF5A22A00CA880031B51C /* UISliderRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D5AE5152A01129F004AE22D /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		4DBCF5912A00C7FA0031B51C /* SliderGameSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderGameSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBCF5942A00C7FA0031B51C /* SliderGameSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGameSwiftUIApp.swift; sourceTree = "<group>"; };
 		4DBCF5962A00C7FA0031B51C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DBCF5982A00C7FB0031B51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBCF59B2A00C7FB0031B51C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DBCF5A22A00CA880031B51C /* UISliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				4DBCF5942A00C7FA0031B51C /* SliderGameSwiftUIApp.swift */,
+				4DBCF5A22A00CA880031B51C /* UISliderRepresentation.swift */,
+				4D5AE5152A01129F004AE22D /* SliderView.swift */,
 				4DBCF5962A00C7FA0031B51C /* ContentView.swift */,
 				4DBCF5982A00C7FB0031B51C /* Assets.xcassets */,
 				4DBCF59A2A00C7FB0031B51C /* Preview Content */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBCF5A32A00CA880031B51C /* UISliderRepresentation.swift in Sources */,
+				4D5AE5162A01129F004AE22D /* SliderView.swift in Sources */,
 				4DBCF5972A00C7FA0031B51C /* ContentView.swift in Sources */,
 				4DBCF5952A00C7FA0031B51C /* SliderGameSwiftUIApp.swift in Sources */,
 			);
